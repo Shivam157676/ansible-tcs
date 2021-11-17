@@ -1,0 +1,7 @@
+- name: Stop Accesspoint
+  hosts: all
+  tasks: 
+    - name: Stopping Accesspoint
+      debug:
+        msg: "wan_versa accesspoint stopped"
+    

@@ -1,0 +1,7 @@
+- name: Meraki Stop Switch
+  hosts: all
+  tasks: 
+    - name: Stopping Switch
+      debug:
+        msg: "meraki switch stopped"
+    

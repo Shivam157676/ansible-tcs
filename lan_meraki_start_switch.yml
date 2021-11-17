@@ -1,0 +1,7 @@
+- name: Meraki Start Switch
+  hosts: all
+  tasks: 
+    - name: Starting Switch
+      debug:
+        msg: "meraki switch started"
+    

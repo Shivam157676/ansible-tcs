@@ -1,0 +1,7 @@
+- name: Start Accesspoint
+  hosts: all
+  tasks: 
+    - name: Starting Accesspoint
+      debug:
+        msg: "wan_versa accesspoint started"
+    
